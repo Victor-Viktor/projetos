@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #00030C;
+    color: #FFFFFF;
+    font-size: 62.5%;
+
+    font-family: 'inter';
+}
+
+.btn{
+    background-color: transparent;
+
+    width: 40rem;
+    border-radius: .8rem;
+    border: .1rem solid #FFFFFF;
+    padding: 1rem;
+
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.btnCombo{
+    background-color: #167BF7;
+    border: none;
+}
+
+.legal{
+    font-size: 1.2rem; 
+    color: #C0C0C0;
+}
+
+.heroLinks{
+    margin-top: .8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.container{
+    height: 100%;
+}
+
+.heroBanner{
+    background-image: url(imagens/Background.png);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.heroMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1.6rem;
+    padding-top: 10rem;
+    margin-left: 5.4rem;
+    width: 55rem;
+
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.heroMenu img{
+    width: 34rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 100vh;
+    padding: 5.4rem;
+}
+
+.assista h2, .baixe h2{
+    font-size: 4.8rem;
+}
+.assista p, .baixe p{
+    font-size: 1.6rem;
+
+    width: 50rem;
+    color: #F9F9F9;
+}
+.assita_text, .baixe_text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+.combo_text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    
+    font-size: 1.6rem;
+    color: #F9F9F9;
+
+    width: 50rem;
+}
+
+.combo_text > .btn{
+    width: fit-content;
+}
+
+.dispositivos{
+    height: 30vh;
+
+    text-align: center;
+    font-size: 4.2rem;
+}
+.disp_about{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.tv, .computador, .mobile{
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.6rem;
+
+    height: 30vh;
+}
+
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0 .8rem;
+}
+
+footer > .legal p{
+    margin-bottom: 1.6rem;
+    width: 120rem;
+
+}
+
+footer img{
+    width: 10rem;
+}
